@@ -15,7 +15,8 @@
      <!-- <parent></parent> -->
      <!-- <gobalVar></gobalVar> -->
      <!-- <componentFilter></componentFilter> -->
-     <domEle></domEle>
+     <!-- <domEle></domEle> -->
+     <init></init>
   </div>
 </template>
 <script>
@@ -24,7 +25,8 @@
   //import request from './components/request';
   //import gobalVar from './components/gobal/globalVariable'
   //import componentFilter from './components/filter/filter';
-  import domEle from './components/style/style';
+  //import domEle from './components/style/style';
+  import init from './components/init/init';
   export default {
     name:'App',
     components:{
@@ -33,7 +35,8 @@
       //request
       //gobalVar
       //componentFilter
-      domEle
+      //domEle
+      init
     }
   }
 </script>
